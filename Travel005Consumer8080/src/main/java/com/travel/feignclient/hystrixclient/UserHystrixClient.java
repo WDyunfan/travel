@@ -2,8 +2,8 @@ package com.travel.feignclient.hystrixclient;
 
 import org.springframework.stereotype.Component;
 
-import com.jd.pojo.TbUser;
 import com.travel.feignclient.UserFeignClient;
+import com.travel.pojo.TbUser;
 
 @Component
 public class UserHystrixClient implements UserFeignClient{

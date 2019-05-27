@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.jd.pojo.TbUser;
-import com.jd.pojo.TbUserExample;
 import com.travel.dao.TbUserMapper;
+import com.travel.pojo.TbUser;
+import com.travel.pojo.TbUserExample;
 import com.travel.service.IUserService;
 
 @Service

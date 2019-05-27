@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jd.pojo.TbUser;
-import com.jd.pojo.TbUserExample;
-import com.jd.pojo.TbUserExample.Criteria;
+import com.travel.pojo.TbUser;
+import com.travel.pojo.TbUserExample;
+import com.travel.pojo.TbUserExample.Criteria;
 import com.travel.service.IUserService;
 
 

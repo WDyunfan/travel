@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.jd.pojo.TbUser;
 import com.travel.feignclient.hystrixclient.UserHystrixClient;
+import com.travel.pojo.TbUser;
 
 
 @FeignClient(name="Travel002Provider8001provider",fallback = UserHystrixClient.class)
